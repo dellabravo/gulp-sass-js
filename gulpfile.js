@@ -66,7 +66,7 @@ gulp.task('sass', function (){
 });
 
 gulp.task('js', function(){
-    return gulp.src('src/crossword.js')
+    return gulp.src('src/app.js')
     .pipe(uglify())
     .pipe(gulp.dest('dist'));
 });
